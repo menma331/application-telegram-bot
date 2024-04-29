@@ -27,15 +27,6 @@ async def handler_submit_application(message: Message, state: FSMContext):
     )
     await state.set_state(submit_application_states.CHOOSE_LINE_OF_BUSINESS_STATE)
 
-    await set_timeout_timer(message.from_user.id, state)
-
-
-async def set_timeout_timer(user_id, state: FSMContext):
-    await asyncio.sleep(600)  # 10 минут
-    async with state.get_data() as data:
-        if not data['is_application_filling']:
-            await bot.send_message(user_id, "Вы забыли заполнить заявку!")
-
 
 @fill_an_application_router.message(
     submit_application_states.CHOOSE_LINE_OF_BUSINESS_STATE
