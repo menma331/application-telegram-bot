@@ -86,7 +86,7 @@
    TOKEN=123456789000:AAEmer8CV4dGnGPpEk8Loc0ab7k5e1GEmjA
    
    # Admins id
-   admin_id=1729898852
+   admin_id=716775112
    ```
 4. Далее через терминал перейдите в папку с проектом(на Windows это можно сделать через cd путь)
    и пропишите
