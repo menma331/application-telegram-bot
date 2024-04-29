@@ -13,7 +13,7 @@ async def handle_get_balance(message: Message):
     """Обработчик проверки баланса."""
     balance = await db_connection.get_balance(message.from_user.id)
     is_admin = message.from_user.id in admins_id
-    
+
     text = f'Ваш баланс: <b>{balance}</b> у.е'
     await message.answer(
         text=text,
