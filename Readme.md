@@ -92,7 +92,9 @@
    ```commandline
    alembic revision --autogenerate
    '''
+
    а после:
+
    ```commandline
    alembic upgrade head
    ```
