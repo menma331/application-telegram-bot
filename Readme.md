@@ -91,10 +91,8 @@
 4. После этого,в терминале пропишите команду для миграции:
    ```commandline
    alembic revision --autogenerate
-   '''
-
+   ```
    а после:
-
    ```commandline
    alembic upgrade head
    ```
