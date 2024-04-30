@@ -88,7 +88,16 @@
    # Admins id
    admin_id=716775112
    ```
-4. Далее через терминал перейдите в папку с проектом(на Windows это можно сделать через cd путь)
+4. После этого,в терминале пропишите команду для миграции:
+   ```commandline
+   alembic revision --autogenerate
+   '''
+   а после:
+   ```commandline
+   alembic upgrade head
+   ```
+
+5. Далее через терминал перейдите в папку с проектом(на Windows это можно сделать через cd путь)
    и пропишите
    ```commandline
    python main.py
