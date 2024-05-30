@@ -1,6 +1,6 @@
 # Телеграм бот "Заявки на разработку Ботов"
 
-<img src="https://github.com/menma331/application-telegram-bot/assets/115177950/ca3bf716-960c-4127-99dc-1df225860ae7" height="600" width="700">
+<img src="https://github.com/menma331/application-telegram-bot/assets/115177950/ca3bf716-960c-4127-99dc-1df225860ae7" height="500" width="500">
 
 ### 📃 Содержание
 
